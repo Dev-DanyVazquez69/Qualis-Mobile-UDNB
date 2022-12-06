@@ -6,30 +6,34 @@ export default StyleSheet.create({
       backgroundColor: 'white',
       alignItems: 'center',
       justifyContent: 'center',
+      // borderWidth:2,
+      // borderColor:"pink",
     },
-    containerLogo: {
-      flexGrow:1.5,
+    containerAll:{
+      marginTop:120,
+      flex:1,
+      height:"90%",
+      // borderWidth:2,
+      // borderColor:"pink",
+    },
+    containerPerfil: {
+      flex:2,
       alignItems: 'center',
-      justifyContent: "flex-end",
+      justifyContent: "flex-start",
+      // borderWidth:2,
     },
-    containerTitle: {
-      flexGrow:0.5,
-      alignItems: 'center',
-      justifyContent: 'flex-end',
+    containerMeio: {
+    flex:0.3,
+      alignItems:'center',
+      justifyContent:"flex-start",
+      // borderWidth:2,
     },
-    containerPatro: {
-      flexGrow:1,
-      flexDirection:"row",
-      alignItems: 'flex-end',
-      justifyContent: 'space-around',
+    containerExames: {
+      flex:2,
+      alignItems:'center',
+      justifyContent:"flex-end",
+      borderWidth:1,
     },
-    text: {
-      color:"white",
-    },
-      perfil:{
-        width:150,
-        height:150,
-      },
       bg:{
         height:"100%",
         width:"100%",
@@ -39,28 +43,9 @@ export default StyleSheet.create({
         fontSize:50,
         fontWeight:"bold",
       },
-      imgpatro:{
-        width:70,
-        height:70,
-        resizeMode:"contain",
-        marginBottom:100,
-      },
-      v1:{
-        flex:1,
-        marginTop:130,
-        borderColor:"red",
-        borderWidth:2,
-      },
-      v2:{
-        alignItems:"center",
-        justifyContent:"center",
-        flex:1,
-        borderColor:"green",
-        borderWidth:2,
-      },
-      img:{
-        width:200,
-        resizeMode:"contain",
-      },
+      bgPerfil:{
+        width:150,
+        height:150,
+      }
   });
   

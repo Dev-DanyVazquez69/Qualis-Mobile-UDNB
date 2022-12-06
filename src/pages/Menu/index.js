@@ -24,8 +24,18 @@ export default function Menu({navigation}) {
           style={styles.button}
           />
           <Button
-          title="Prosseguir para a tela de calendario"
+          title="Prosseguir para a tela de calendário"
           onPress={() => navigation.navigate("calendario")}
+          style={styles.button}
+          />
+          <Button
+          title="Prosseguir para a tela de locais"
+          onPress={() => navigation.navigate("locais")}
+          style={styles.button}
+          />
+           <Button
+          title="Prosseguir para a tela de teste"
+          onPress={() => navigation.navigate("teste")}
           style={styles.button}
           />
           </View>

@@ -6,7 +6,6 @@ const imgBg = "../../../assets/fundo.png"
 
 export default function App({navigation}) {
   return (
-
     <View style={styles.containerFull}>
         <ImageBackground
         source={require(imgBg)}
